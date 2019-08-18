@@ -1,0 +1,53 @@
+body{
+  background:url('https://backgrounddownload.com/wp-content/uploads/2018/09/background-music-web-8.jpg') no-repeat center center;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-opacity:10%;
+  text-align:center;
+}
+h1{
+  color:white;
+  font-weight:bold;
+  font-size:3em;
+  text-shadow: 2px 4px 5px black;
+}
+#calculator{
+  background-color: grey;
+  width:280px;
+  height:350;
+  border: 1px solid white;
+  padding:20px;
+  border-radius: 20px;
+  margin: 50px auto;
+  box-shadow: 0px 0px 3px 6px ;
+}
+#display{
+  margin-bottom: 20px;
+  height: 30px;
+  width : 10em;
+  border: 1px solid black;
+  border-radius: 5 px;
+  border-shadow: 0px 0px 1px 1px black;
+  text-align: right;
+  font: 20px bold;
+}
+
+#one,#two,#three,#four,#five,#six,#seven,#eight,#nine,#zero,#divide,#multiply,#subtract,#add,#keys,#clear,#decimal{
+  width:41px;
+  height: 35px;
+  margin: 4px;
+  box-shadow: 0px 0px 2px 1px black;
+  border-radius:2px;
+  outline:none
+}
+
+#equals{
+  width:92px;
+  height: 35px;
+  margin: 4px;
+  box-shadow: 0px 0px 2px 1px black;
+  border-radius:2px;
+  outline:none
+}
